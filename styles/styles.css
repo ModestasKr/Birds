@@ -1,9 +1,18 @@
-*{
+* {
     background-color: #F9FCED;
 }
+
 header a, footer a{
     text-decoration: none;
     color: rgb(216, 83, 83);
     font-size: 130%;
-    
 }
+
+.iconsColor {
+    color: rgb(151, 54, 54);
+}
+
+.footerText {
+    font-size: 1.5rem;
+}
+  
