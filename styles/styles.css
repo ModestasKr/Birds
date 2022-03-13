@@ -1,5 +1,6 @@
 * {
     background-color: #F9FCED;
+    margin:0;
 }
 
 header a, footer a{
@@ -14,5 +15,8 @@ header a, footer a{
 
 .footerText {
     font-size: 1.5rem;
+}
+button{
+    width: 80px;
 }
   
