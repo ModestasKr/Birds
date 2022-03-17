@@ -1,18 +1,67 @@
-* {
+
+
+/* * {
     background-color: #F9FCED;
-}
+} */
 
 header a, footer a{
     text-decoration: none;
-    color: rgb(216, 83, 83);
+    color: rgb(255, 255, 255);
     font-size: 130%;
 }
 
-.iconsColor {
-    color: rgb(151, 54, 54);
+.iconsColorFB {
+    color: #4267B2;
+    margin: 15px;
+}
+
+.iconsColorYT {
+    color: #FF0000;
+    margin: 15px;
+}
+
+.iconsColorTW {
+    color: #1DA1F2;
+    margin: 15px;
+}
+
+.subs {
+    background-color: #FF0000;
 }
 
 .footerText {
     font-size: 1.5rem;
 }
-  
+
+.bodyBackground {
+    background-image: url('https://wallpaperaccess.com/full/773426.jpg');
+    color: white;
+}
+
+.navBackground {
+    background-color: rgba(51, 53, 51, 0.5);
+}
+
+.mainBirds {
+    height: 550px;
+}
+
+.mainBackground {
+    background-color: rgba(51, 53, 51, 0.5);
+    
+}
+
+.footerBackground {
+    background-color: rgba(51, 53, 51, 0.5);
+}
+
+/* Contacts CSS */
+
+.bodyBackground {
+    background-image: url('https://wallpaperaccess.com/full/773426.jpg');
+    color: white;
+}
+
+.cardBackground {
+    background-color: rgba(51, 53, 51, 0.5);
+}
