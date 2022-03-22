@@ -1,0 +1,90 @@
+body {
+    display:flex;
+    width: 100vw;
+    height: 100vh; 
+    justify-content: center;
+    align-items: center;
+    background-image: url("./quiz-game-img/14.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position:  center;   
+}
+
+.container{
+    /* margin-top:10px;
+    margin-bottom: 10px; */
+    border-radius: 3%;
+    
+}
+ 
+.answer-container{
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 3%;
+}
+
+/* .image-card {
+    position: relative;
+    width: 50%;
+    margin: 10px auto;
+  } */
+
+
+  /* .image-card img {
+    width: 100%;
+    border-radius: 5%;
+    max-height:min-content;
+
+  } */
+
+  .textPlace {
+    position: relative;
+    width: 100%;
+    margin: 10px auto;
+
+  }
+
+  .textPlace img {
+    border-radius: 5%;
+  }
+
+
+
+
+ .answers-card{
+     margin: auto;
+     width:100%;
+ }
+
+ .answer-btn {
+     min-width: 300px;
+     max-width: 400px;
+     min-height:40px;
+     max-height:40px
+ }
+
+ .question-cards{
+     min-height: 50px;
+     max-height: 50px;
+
+ }
+
+ .card {
+    background: rgba(242, 255, 205, 0.584)rgba(242, 255, 205, 0.584);
+ }
+ 
+.count-card{
+max-width: 100px;
+padding: 3px;
+}
+
+.row img{
+    max-height: 420px;
+}
+
+/* paspaudus pradeti mygtuka insijungia opacity background */
+.background-color{
+    background: rgba(242, 255, 205, 0.584);
+}
+
