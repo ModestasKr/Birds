@@ -12,11 +12,81 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
+    <script
+      src="https://kit.fontawesome.com/d0611a770a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      href="https://img.freepik.com/free-vector/bird-logo-vector_95982-44.jpg?size=338&ext=jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body class="bodyBackground">
+    <nav class="navbar navbar-expand-lg navbar-light navBackground">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand text-light" href="#">Lietuvos paukščiai</a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <i class="bi bi-house-door h3 text-warning"></i>
+  
+              <li class="nav-item">
+                <a class="nav-link text-light active me-2" aria-current="page" href="../index.html"
+                  >Grįžti</a
+                >
+              </li>
+              <div>
+                <i class="bi bi-controller h3 text-warning"></i>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link text-light active me-2" aria-current="page" href="#"
+                  >Žaidimai</a
+                >
+              </li>
+              <i class="bi bi-camera h3 text-warning"></i>
+              <li class="nav-item">
+                <a class="nav-link text-light active me-2" aria-current="page" href="#"
+                  >Nuotraukos</a
+                >
+              </li>
+              <i class="bi bi-archive h3 text-warning"></i>
+              <li class="nav-item">
+                <a class="nav-link text-light active me-2" aria-current="page" href="birdsinfo.html">Pauksčiai</a>
+              </li>
+              <i class="bi bi-envelope h3 text-warning"></i>
+              <li class="nav-item">
+                <a class="nav-link text-light active me-2" aria-current="page" href="#">Kontaktai</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <section class="contact py-5" id="contact">
         <div class="container cardBackground">
             <div class="row">
@@ -91,17 +161,25 @@
                 </div>
                 <div>
                     <hr>
-                        <ul class="list-inline list-unstyled">
-                            <li class="list-inline-item">
-                                    <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                    <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                    <a href="#"><i class="fa fa-youtube-play fa-2x"></i></a>
-                            </li>
-                        </ul>
+                    <div class="container">
+                        <div class="row text-center">
+                          <div class="col-6">
+                            <i class="fab fa-facebook fa-3x iconsColorFB"></i>
+                            <i class="fab fa-youtube fa-3x iconsColorYT"></i>
+                            <i class="fab fa-snapchat fa-3x iconsColorTW"></i>
+                          </div>
+                          <div class="col-6">
+                            <span class="footerText"
+                              >Subscribe to receive to get the lastest news:</span>
+                            <p >
+                              
+                              <button class="buttonSubscribe btn btn-lg btn-danger">
+                                Subscribe
+                              </button>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
             
