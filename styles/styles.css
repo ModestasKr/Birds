@@ -1,171 +1,171 @@
 body{
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* * {
-    background-color: #F9FCED;
+  background-color: #F9FCED;
 } */
 
 header a, footer a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 130%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 130%;
 }
 
 .iconsColorFB {
-    color: #4267B2;
-    margin: 15px;
+  color: #4267B2;
+  margin: 15px;
 }
 
 .iconsColorYT {
-    color: #FF0000;
-    margin: 15px;
+  color: #FF0000;
+  margin: 15px;
 }
 
 .iconsColorTW {
-    color: #1DA1F2;
-    margin: 15px;
+  color: #1DA1F2;
+  margin: 15px;
 }
 
 .subs {
-    background-color: #FF0000;
+  background-color: #FF0000;
 }
 
 .footerText {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .bodyBackground {
-    background-image: url('https://wallpaperaccess.com/full/773426.jpg');
-    color: white;
+  background-image: url('https://wallpaperaccess.com/full/773426.jpg');
+  color: white;
 }
 
 .navBackground {
-    background-color: rgba(51, 53, 51, 0.5);
+  background-color: rgba(51, 53, 51, 0.5);
 }
 
 .mainBirds {
-    height: 550px;
+  height: 550px;
 }
 
 .mainBackground {
-    background-color: rgba(51, 53, 51, 0.5);
-    
+  background-color: rgba(51, 53, 51, 0.5);
+  
 }
 
 .footerBackground {
-    background-color: rgba(51, 53, 51, 0.5);
+  background-color: rgba(51, 53, 51, 0.5);
 }
 
 /* Contacts CSS */
 
 .bodyBackground {
-    background-image: url('https://wallpaperaccess.com/full/773426.jpg');
-    color: white;
+  background-image: url('https://wallpaperaccess.com/full/773426.jpg');
+  color: white;
 }
 
 .cardBackground {
-    background-color: rgba(51, 53, 51, 0.5);
+  background-color: rgba(51, 53, 51, 0.5);
 }
 
 /* Game section  */
 section.cards {
-    background-color: rgb(71, 71, 71,0.5);
+  background-color: rgb(71, 71, 71,0.5);
 }
 
 
 /* photo gallery */
 
 .immageGallery{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(29, 129, 38 )
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29, 129, 38 )
 }
 
 
 
 /* section.imageGallery{
-    background-color: #4267B2;
+  background-color: #4267B2;
 } */
 
 section.photos {
-    padding-bottom: 0;
-  }
+  padding-bottom: 0;
+}
+.pBlock {
+  width: 33.33%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.p1 {
+  background-image: url('../images/1.jpg');
+}
+.p2 {
+  background-image: url('../images/2.jpg');
+}
+.p3 {
+  background-image: url('../images/3.jpg');
+}
+.p4 {
+  background-image: url('../images/4.jpg');
+}
+.p5 {
+  background-image: url('../images/5.jpg');
+}
+.p6 {
+  background-image: url('../images/6.jpg');
+}
+.text {
+  transition: 0.5s ease;
+  text-align: center;
+  opacity: 0;
+  position: relative;
+}
+.hpadding {
+  padding-top: 100px;
+}
+.text h2 {
+  font-size: 1.1rem;
+  color: lightgrey;
+}
+.text h3 {
+  font-size: 1rem;
+  color: white;
+}
+.hoverbg {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 95, 55, 0.8);
+}
+.pBlock:hover .text {
+  opacity: 1;
+  z-index: 100 !important;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
   .pBlock {
-    width: 33.33%;
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-  .p1 {
-    background-image: url('../images/1.jpg');
-  }
-  .p2 {
-    background-image: url('../images/2.jpg');
-  }
-  .p3 {
-    background-image: url('../images/3.jpg');
-  }
-  .p4 {
-    background-image: url('../images/4.jpg');
-  }
-  .p5 {
-    background-image: url('../images/5.jpg');
-  }
-  .p6 {
-    background-image: url('../images/6.jpg');
-  }
-  .text {
-    transition: 0.5s ease;
-    text-align: center;
-    opacity: 0;
-    position: relative;
-  }
-  .hpadding {
-    padding-top: 100px;
-  }
-  .text h2 {
-    font-size: 1.1rem;
-    color: lightgrey;
-  }
-  .text h3 {
-    font-size: 1rem;
-    color: white;
+    width: 50%;
+    height: 250px;
   }
   .hoverbg {
+    height: 250px;
+  }
+  .hpadding {
+    padding-top: 75px;
+  }
+}
+@media (max-width: 767px) {
+  .pBlock {
     width: 100%;
-    height: 300px;
-    background-color: rgba(0, 95, 55, 0.8);
+    height: 200px;
   }
-  .pBlock:hover .text {
-    opacity: 1;
-    z-index: 100 !important;
+  .hoverbg {
+    height: 200px;
   }
-  @media (min-width: 768px) and (max-width: 1280px) {
-    .pBlock {
-      width: 50%;
-      height: 250px;
-    }
-    .hoverbg {
-      height: 250px;
-    }
-    .hpadding {
-      padding-top: 75px;
-    }
+  .hpadding {
+    padding-top: 50px;
   }
-  @media (max-width: 767px) {
-    .pBlock {
-      width: 100%;
-      height: 200px;
-    }
-    .hoverbg {
-      height: 200px;
-    }
-    .hpadding {
-      padding-top: 50px;
-    }
-  }
-  /*  */
+}
+/*  */

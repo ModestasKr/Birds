@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atminties žaidimas</title>
+    <link rel="stylesheet" href="../styles/memorygame.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      href="https://img.freepik.com/free-vector/bird-logo-vector_95982-44.jpg?size=338&ext=jpg"
+    />
+    <!--bootstrap icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+</head>
+
+
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+      <nav class="navbar navbar-expand-lg navbar-light navBackground">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand text-light" href="../index.html">Lietuvos paukščiai</a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <i class="bi bi-house-door h3 text-warning"></i>
+  
+              <li class="nav-item">
+                <a class="nav-link text-light active me-2" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <div class="icon">
+                <i class="bi bi-controller h3 text-warning"></i>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link text-light active me-2" aria-current="page" href="#"
+                  >Games</a
+                >
+              </li>
+              <i class="bi bi-camera h3 text-warning"></i>
+              <li class="nav-item">
+                <a class="nav-link text-light active me-2" aria-current="page" href="#"
+                  >Photos</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          
+        </div>
+      </div>
+    </div>
+      </nav>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <section class="memory-game">
+          <div class="memory-card" data-framework="bird1">
+            <img class="front-face" src="../images/bird1.png" alt="bird1" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+          <div class="memory-card" data-framework="bird1">
+            <img class="front-face" src="../images/bird1.png" alt="bird1" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+      
+          <div class="memory-card" data-framework="bird2">
+            <img class="front-face" src="../images/bird2.jpg" alt="bird2" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+          <div class="memory-card" data-framework="bird2">
+            <img class="front-face" src="../images/bird2.jpg" alt="bird2" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+      
+          <div class="memory-card" data-framework="bird3">
+            <img class="front-face" src="../images/bird3.jpg" alt="bird3" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+          <div class="memory-card" data-framework="bird3">
+            <img class="front-face" src="../images/bird3.jpg" alt="bird3" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+      
+          <div class="memory-card" data-framework="bird4">
+            <img class="front-face" src="../images/bird4.jpg" alt="bird4" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+          <div class="memory-card" data-framework="bird4">
+            <img class="front-face" src="../images/bird4.jpg" alt="bird4" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+      
+          <div class="memory-card" data-framework="bird5">
+            <img class="front-face" src="../images/bird5.jpg" alt="bird5" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+          <div class="memory-card" data-framework="bird5">
+            <img class="front-face" src="../images/bird5.jpg" alt="bird5" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+      
+          <div class="memory-card" data-framework="bird6">
+            <img class="front-face" src="../images/bird6.jpg" alt="bird6" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+          <div class="memory-card" data-framework="bird6">
+            <img class="front-face" src="../images/bird6.jpg" alt="bird6" />
+            <img class="back-face" src="../images/logo.jpg" alt="logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <button id="reset" class="btn btn-success text-center mt-3">Žaisti iš naujo</button>
+      </div>
+      </div>
+    </div>
+        </section>
+      
+        <script src="../script/memorygame.js"></script>
+      </body>
+      </html>
+    
