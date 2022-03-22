@@ -7,9 +7,11 @@
   body {
     height: 100vh;
     display: flex;
-    background: #F9FCED;
+    background-image: url('https://wallpaperaccess.com/full/773426.jpg');
   }
-  
+  .navBackground {
+    background-color: rgba(51, 53, 51, 0.5);
+  }
   .memory-game {
     width: 800px;
     height: 640px;

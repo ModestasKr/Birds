@@ -1,5 +1,16 @@
 const cards = document.querySelectorAll('.memory-card');
 
+// const element = document.getElementById("reset").addEventListener("click", reload);
+
+let resetButton = document.getElementById('reset').addEventListener("click", reloadPage)
+
+
+function reloadPage(){
+   window.location.reload();
+}
+
+
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
